@@ -343,7 +343,7 @@ h2 {
   content: "";
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .grids {
     flex-direction: column;
   }
@@ -351,7 +351,7 @@ h2 {
     width: 80%;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .image {
     width: 80%;
   }
