@@ -326,15 +326,19 @@ h2 {
   transition: all 0.5s ease-out;
 }
 
+.image:link::before,
+.image:visited::before,
 .image:hover::before,
-.image:focus::before,
-.image:active::before {
+.image:active::before,
+ {
   background-color: rgba(0, 0, 0, 0.63);
 }
 
+.image:link .text,
+.image:visited .text,
 .image:hover .text,
-.image:focus .text,
-.image:active .text {
+.image:active .text, {
+  {
   display: block;
   content: "";
 }
