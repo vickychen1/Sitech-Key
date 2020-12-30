@@ -321,7 +321,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .Key_Club_image,
   .Key_Club_text {
     float: none;
