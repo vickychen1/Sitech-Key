@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sitechkeyclub</title>
+	<link rel="stylesheet" href="scss/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet">
+</head>
+
+<body>
+
+<br>
+
+<body class="container">
+	<div class="container-nav">
+	<nav>
+		<input id="nav-toggle" type="checkbox">
+		<div class="container-logo">
+		<div class="logo">Sitech Key Club</div>
+		</div>
+	   
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="members.html">Members</a></li>
+			<li><a href="about_us.html">About Us</a></li>
+			<li><a href="contact_us.html">Contact Us</a></li>
+		</ul>
+
+		<label for="nav-toggle" class="icon-burger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</label>
+	</nav>
+</div>
+
+
+  <div class="intro">
+	<div class="intro-text">Staten Island Technical High School Key Club</div>
+	<div class="layer"></div>
+	</div>
+
+	
+	<div class="Key_Club">
+		<div class="box Key_Club_image">
+			<img src="img/pic1.jpg">
+		</div>
+			
+		<div class="box Key_Club_text">
+			<h2>What is Key Club?</h2>
+			<p>Key Club is a student-led high school organization, dedicated to provide service and leadership to many others. We strive to create an impact on the community no matter how big or small it is, growing as individuals and as a team with other members.</p>
+		
+		<div class="announcements">
+			<h3>Quick Announcements</h3>
+			<div class="announcements-text">
+				We host meetings on Zoom. Be sure to subscribe to our email lists!
+			</div>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScf4UdRWhAjWt-0uCpPzLtBWH727h4Q8UwlN1ik6KjAObK9RQ/viewform" target="_blank">Click Here</a>
+		</div>
+	</div>
+	</div>
+	
+	<section class="divisional">
+		<div class="divisional-content">
+			<p>Drumroll...divisionals!</p>
+			<div class="divisional_info">
+				What is a divisional?
+				<br>
+				A divisional is the most important event that takes place in a Key Club division. Members and officers from around the entire island gather to discuss upcoming events and chat with people from different schools. There is one for each division every month, usually at the end of the month.
+			</div>
+		</div>
+	</section>
+		
+	<section class="slider">
+		<div class="slidercontainer">  
+			<div class="showSlide fade">  
+				<img src="img/slideshow1.jpg" />  
+				<div class="content"></div>  
+			</div>  
+			<div class="showSlide fade">  
+				<img src="img/slideshow2.PNG" />  
+				<div class="content"></div>  
+			</div>  
+	
+			<div class="showSlide fade">  
+				<img src="img/slideshow3.PNG" />  
+				<div class="content"></div>  
+			</div>  
+			<div class="showSlide fade">  
+				<img src="img/slideshow4.jpg" />  
+				<div class="content"></div>  
+			</div>  
+			<!-- Navigation arrows -->  
+			<a class="left" onclick="nextSlide(-1)">❮</a>  
+			<a class="right" onclick="nextSlide(1)">❯</a>  
+		</div>  
+	</section>
+
+    <section class="banner">
+        <p>Caring - Our Way Of Life</p>
+    </section>
+
+	<script type="text/javascript">  
+        var slide_index = 1;  
+        displaySlides(slide_index);  
+  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index - 1].style.display = "block";  
+        }  
+    </script>  
+
+</body>
+
+
+</html>
+
