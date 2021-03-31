@@ -175,7 +175,7 @@ nav .icon-burger .line {
 .image1 {
   background-image: linear-gradient(rgba(#000000, 0.25)), url(../img/img2.jpg);
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +201,7 @@ nav .icon-burger .line {
   margin: 2rem auto;
   padding: 1rem;
   line-height: 2.4rem;
-  width: 60%;
+  width: 65%;
 }
 .login-hour {
   border: 0.2rem solid #5387c7;
@@ -243,4 +243,14 @@ nav .icon-burger .line {
   color: #ffffff;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+.title-reasons {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.title-reasons p {
+  color: #5387c7;
 }

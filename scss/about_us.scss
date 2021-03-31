@@ -175,7 +175,7 @@ nav .icon-burger .line {
 .display-image1 {
   background-image: linear-gradient(rgba(#000000, 0.25)), url(../img/image1.jpg);
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -348,4 +348,10 @@ nav .icon-burger .line {
   color: #ffffff;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+.credit p {
+  color: #0e3663;
+  font-size: 1.8rem;
+  text-align: center;
 }

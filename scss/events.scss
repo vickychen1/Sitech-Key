@@ -329,16 +329,14 @@ h2 {
 .image:link::before,
 .image:visited::before,
 .image:hover::before,
-.image:active::before,
- {
+.image:active::before {
   background-color: rgba(0, 0, 0, 0.63);
 }
 
 .image:link .text,
 .image:visited .text,
 .image:hover .text,
-.image:active .text, {
-  {
+.image:active .text {
   display: block;
   content: "";
 }
@@ -364,4 +362,8 @@ h2 {
   color: #ffffff;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+.ongoing_events li {
+  font-size: 17px;
 }

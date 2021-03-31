@@ -229,7 +229,7 @@ nav .icon-burger .line {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../img/group_pic.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/group_pic.jpg);
   height: 75vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
