@@ -4,5 +4,5 @@
 Staten Island Technical High School Key Club website
 
 ## Technology
-This website is created with HTML and CSS.
+This website is created with HTML and SCSS.
 
